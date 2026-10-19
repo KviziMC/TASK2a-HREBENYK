@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #e7e7e7;
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 25px 10px 42px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 14px;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+header p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.statistics {
+    display: flex;
+    width: 800px;
+    height: 572px;
+    margin: 0 auto;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.meeting-photo {
+    width: 400px;
+    height: 294px;
+}
+
+.bottom-row,
+.top-row {
+    display: flex;
+}
+
+.bottom-row {
+    height: 278px;
+}
+
+.bottom-row img,
+.bottom-row .stat {
+    width: 200px;
+}
+
+.top-row {
+    height: 240px;
+}
+
+.top-row img,
+.top-row .stat {
+    width: 200px;
+}
+
+.advisor-photo {
+    width: 400px;
+    height: 332px;
+}
+
+.statistics img {
+    display: block;
+    object-fit: cover;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stat h2 {
+    margin: 0 0 14px;
+    font-size: 48px;
+}
+
+.stat p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.white {
+    background-color: white;
+}
+
+.white h2 {
+    color: #f58200;
+}
+
+.orange {
+    background-color: #f58200;
+    color: white;
+}
+
